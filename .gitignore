@@ -1,3 +1,14 @@
+git rm --cached backend/config.js
+git rm --cached akshay_5121_credentials.csv
+git rm --cached -r contact-form-deployment/terraform
+node_modules/
+.env
+*.log
+*.csv
+terraform.tfstate
+terraform.tfstate.*
+contact-form-deployment/terraform/*.tfstate
+contact-form-deployment/terraform/*.tfstate.lock.info
 node_modules/
 .env
 package-lock.json
